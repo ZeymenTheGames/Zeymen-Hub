@@ -1,0 +1,22 @@
+:root {
+    --midnight: #0a0f1c;
+    --neon: #00f3ff;
+}
+body {
+    background-color: var(--midnight);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+.title-minecraft {
+    color: var(--neon);
+    text-shadow: 0 0 15px var(--neon);
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.stat-card {
+    background: rgba(0, 243, 255, 0.05);
+    border: 1px solid var(--neon);
+    padding: 20px;
+    border-radius: 10px;
+}
